@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("../media/img/fundoLEA.jpg");
+    border: 0;
+    background-size: 250px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-img {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.ic-1 {
+    padding: 4px;
+    flex: 1;
+}
+
+.ic {
+    padding: 10px;
+    flex: 1;
+}
+
+#ic-1 {
+    background-color: #81D6B5;
+}
+
+#ic-2 {
+    background-color: #B2E677;
+}
+
+#ic-3 {
+    background-color: #FFCE58;
+}
+
+#ic-4 {
+    background-color: #FF9B54;
+}
+
+#ic-5 {
+    background-color: #FF6255;
+}
+
+#ic-6 {
+    background-color: #FF6283;
+}
+
+.barra {
+    background-color: #4B7D88;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra a {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.barra img {
+    height: 80px;
+}
+
+#ismaelnerd {
+    height: 100px;
+}
